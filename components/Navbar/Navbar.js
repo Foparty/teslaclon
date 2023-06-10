@@ -113,7 +113,7 @@ const Navbar = () => {
           <Link
             ref={(el) => (listItemRef.current[9] = el)}
             className={styles.menu}
-            href={"#models"}
+            href={"#"}
           >
             <button onClick={handleToggle}>Menu</button>
           </Link>
