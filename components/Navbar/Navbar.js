@@ -110,13 +110,14 @@ const Navbar = () => {
           <Link ref={(el) => (listItemRef.current[8] = el)} href={"#models"}>
             Account
           </Link>
-          <Link
+
+          <button
             ref={(el) => (listItemRef.current[9] = el)}
             className={styles.menu}
-            href={"#"}
+            onClick={handleToggle}
           >
-            <button onClick={handleToggle}>Menu</button>
-          </Link>
+            Menu
+          </button>
         </nav>
         <div className={styles.backdrop} ref={menuBackDropRef}></div>
       </div>

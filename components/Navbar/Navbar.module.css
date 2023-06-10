@@ -63,7 +63,8 @@
 	background: rgba(0, 0, 0, .04);
 }
 
-.menu button {
+.menu {
+	padding: .31rem .71rem;
 	color: currentColor;
 	cursor: pointer;
 	background: none;
